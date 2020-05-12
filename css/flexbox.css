@@ -1,0 +1,34 @@
+.horizontal-box {
+  display: flex; /* Usa el metodo flex para ordenar los elementos */
+  background-color: #cecece;
+  margin: 20px;
+  padding: 20px;
+  /* se usa para generar espacio automático entre los elementos hijos */
+  justify-content: space-between;
+  flex-direction: row;
+  color: #fff;
+  font-size: 30px;
+}
+
+.vertical-box {
+  display: flex;
+  background-color: #cecece;
+  margin: 20px;
+  padding: 20px;
+  font-size: 30px;
+  /* se usa para ordenar los elementos hijos en direccion vertical */
+  flex-direction: column;
+}
+
+.horizontal-box .box-item {
+  background-color: blue;
+  padding: 20px;
+  margin: 0px 20px;
+  border-radius: 5px;
+}
+
+.vertical-box .box-item {
+  background-color: orange;
+  padding: 20px;
+  margin: 20px;
+}
